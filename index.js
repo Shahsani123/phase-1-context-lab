@@ -1,4 +1,20 @@
 /* Your Code Here */
+function createEmployeeRecord(array) {
+    let firstName = array[0];
+    let familyName = array[1];
+    let title = array[2];
+    let payPerHour = array[3];
+    let timeInEvents = [];
+    let timeOutEvents = [];
+    return {
+        firstName,
+        familyName,
+        title,
+        payPerHour,
+        timeInEvents,
+        timeOutEvents
+    }
+}
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
